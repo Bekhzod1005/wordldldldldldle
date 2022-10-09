@@ -28,7 +28,7 @@ for i in range(5) :
 
 #For example: check if the first letter of guess is the same as the first letter of word, if it is, then mark it green,
 #if it's not but it exists within the word mark it yellow(also checks if a guess has more of the same letters than in the word and if it does it only marks those that are below 
-# or equal to the number of the same letters in word), if it doesn't exist within a word, mark it black.
+# or equal to the number of the same letters in word), if it doesn't exist within a word, mark it black
     for j in range(5):
         colour = colorama.Fore.BLACK
         if guess[j] == word[j]:
